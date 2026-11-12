@@ -1,0 +1,2 @@
+$ curl http://localhost:3030/fetchDealer/15
+[{"_id":"6af607159e0e822caa858ce0","id":15,"city":"San Antonio","state":"Texas","address":"5057 Pankratz Hill","zip":"78225","lat":"29.3875","long":"-98.5245","short_name":"Tempsoft","full_name":"Tempsoft Car Dealership","__v":0}]
