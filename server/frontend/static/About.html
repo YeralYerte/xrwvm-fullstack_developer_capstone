@@ -1,68 +1,71 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
 <head>
-  <!-- Link the style sheet here -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us | Best Cars Dealership</title>
+    <link rel="stylesheet" href="/static/style.css">
+    <link rel="stylesheet" href="/static/bootstrap.min.css">
 </head>
-<div>
-  <nav class="navbar navbar-expand-lg navbar-light" style="background-color:darkturquoise; height: 1in;">
-    <div class="container-fluid">
-      <h2 style="padding-right: 5%;">Dealerships</h2>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarText">
-        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-          <li class="nav-item">
-            <a class="nav-link" style="font-size: larger;" aria-current="page" href="/">Home</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link active" style="font-size: larger;" href="/about">About Us</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" style="font-size: larger;" href="/contact">Contact Us</a>
-          </li>
-        </ul>
-      </div>
-    </div>
-  </nav>
-  
-    <div class="card" style="width: 80%;margin: auto; margin-top:5%;">
-      <div class="banner" name="about-header">
-      <!-- Insert header information here -->
-      </div>
-      <div style="display: flex;flex-direction: row; margin:auto">
-      <div class="card" style="width: 30%;">
-        <img class="card-img-top" src="/static/person.png" alt="Card image">
-        <div class="card-body">
-          <p class="title">Person1</p>
-          <p>Person1 Title</p>
-          <p class="card-text">Some text that explains the person1 in about 2 short sentences</p>
-          <p>person1@example.com</p>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light" style="background-color:darkturquoise; height: 1in;">
+        <div class="container-fluid">
+            <h2 style="padding-right: 5%;">Dealerships</h2>
+            <div class="collapse navbar-collapse">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link" style="font-size: larger;" href="/">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" style="font-size: larger;" href="/about">About Us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" style="font-size: larger;" href="/contact">Contact Us</a>
+                    </li>
+                </ul>
+            </div>
         </div>
-      </div>
+    </nav>
 
-      <div class="card" style="width: 30%;">
-        <img class="card-img-top" src="/static/person.png" alt="Card image">
-        <div class="card-body">
-          <p class="title">Person2</p>
-          <p>Person2 Title</p>
-          <p class="card-text">Some text that explains the person2 in about 2 short sentences</p>
-          <p>person2@example.com</p>
+    <div class="container" style="margin-top: 40px;">
+        <h1>About Us</h1>
+        <p style="font-size: larger;">
+            Welcome to Best Cars Dealership, home to the best cars in North America.
+            We sell domestic and imported cars at reasonable prices and help our customers
+            find trusted dealers through honest reviews.
+        </p>
+
+        <div style="display: flex; gap: 2%; margin-top: 30px;">
+            <div class="card" style="width: 32%;">
+                <img class="card-img-top" src="https://randomuser.me/api/portraits/women/44.jpg" alt="Aruzhan Sadykova">
+                <div class="card-body">
+                    <p class="card-title" style="font-weight: bold; font-size: larger;">Aruzhan Sadykova</p>
+                    <p class="card-text" style="color: grey;">Chief Executive Officer</p>
+                    <p class="card-text">Founded Best Cars in 2010 and leads the company's growth across 50 states.</p>
+                    <p class="card-text">aruzhan.sadykova@bestcars.com</p>
+                </div>
+            </div>
+
+            <div class="card" style="width: 32%;">
+                <img class="card-img-top" src="https://randomuser.me/api/portraits/men/32.jpg" alt="Daniel Brooks">
+                <div class="card-body">
+                    <p class="card-title" style="font-weight: bold; font-size: larger;">Daniel Brooks</p>
+                    <p class="card-text" style="color: grey;">Head of Customer Relations</p>
+                    <p class="card-text">10 years in the automotive industry, manages our dealer review program.</p>
+                    <p class="card-text">daniel.brooks@bestcars.com</p>
+                </div>
+            </div>
+
+            <div class="card" style="width: 32%;">
+                <img class="card-img-top" src="https://randomuser.me/api/portraits/women/68.jpg" alt="Maria Lopez">
+                <div class="card-body">
+                    <p class="card-title" style="font-weight: bold; font-size: larger;">Maria Lopez</p>
+                    <p class="card-text" style="color: grey;">Lead Software Engineer</p>
+                    <p class="card-text">Builds and maintains the Best Cars web platform and review system.</p>
+                    <p class="card-text">maria.lopez@bestcars.com</p>
+                </div>
+            </div>
         </div>
-      </div>
-
-      <div class="card" style="width: 30%;">
-        <img class="card-img-top" src="/static/person.png" alt="Card image">
-        <div class="card-body">
-          <p class="title">Person3</p>
-          <p>Person3 Title</p>
-          <p class="card-text">Some text that explains the person3 in about 2 short sentences</p>
-          <p>person3@example.com</p>
-        </div>
-      </div>
     </div>
-    </div>
-    </div>
-    
-</div>
-
+</body>
 </html>
